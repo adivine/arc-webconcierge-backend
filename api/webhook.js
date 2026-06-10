@@ -3,7 +3,7 @@
 // Handles: lead capture webhook + Resend email routing
 
 import { Resend } from 'resend';
-import { emailSequences } from './emails/sequences.js';
+import { emailSequences } from '../sequences.js';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
